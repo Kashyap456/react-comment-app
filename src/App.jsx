@@ -9,9 +9,8 @@ const App = () => {
   const addComment = (e, name, comment, setName, setComment) => {
     e.preventDefault()
     if (name && comment) {
-      const cc = count
-      setCount(cc + 1)
-      setList(ls => [...ls, { name, comment, id: cc }])
+      setList(ls => [...ls, { name, comment, id: count }])
+      setCount(prevCount => prevCount + 1)
       setName('')
       setComment('')
     }
