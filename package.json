@@ -1,7 +1,6 @@
 {
   "name": "react-comment-app",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/Kashyap456/react-comment-app.git",
   "author": "Kashyap Chaturvedula <kashyapc@seas.upenn.edu>",
   "license": "MIT",
@@ -15,7 +14,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build ./src/index.html"
+    "build": "parcel build src/index.html"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",
